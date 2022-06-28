@@ -6,17 +6,17 @@ Here are the steps to run this Jupyter Notebook with all required dependencies o
 
 1. Via the command line, clone this repository and change into the main directory folder
 
-> gh repo clone https://github.com/mbaldassaro/telegram-scraper.git && cd telegram-scraper
+> > gh repo clone https://github.com/mbaldassaro/telegram-scraper.git && cd telegram-scraper
 
 2. Create a virtual environment and activate it
 
-> py -3 -m venv env && env\Scripts\activate.bat
+> > py -3 -m venv env && env\Scripts\activate.bat
 
 (if you are using a Mac: python3 -m venv env && source env/bin/activate)
 
 3. Install the packages and dependencies using the requirements.txt file
 
-(env) > pip3 install -r requirements.txt
+> (env) > pip3 install -r requirements.txt
 
 4. Launch the Jupyter Notebook in your preferred IDE
 
